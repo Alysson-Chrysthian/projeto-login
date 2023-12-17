@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <title>Projeto-login</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 769px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 1025px)">
 </head>
 <body>
-    
+    <main>
+        <section id="login">
+            <div id="background">
+
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form method="post" action="cadastro.php" autocomplete="on">
+                    <div class="inf">
+                        <label for="nomeid"><span class="material-icons">person</span></label>
+                        <input type="text" name="nome" id="nomeid" placeholder="Seu nome" required autocomplete="username" maxlength="20" minlength="5">
+                    </div>
+                    <div class="inf">
+                        <label for="senhaid"><span class="material-icons">vpn_key</span></label>
+                        <input type="password" name="senha" id="senhaid" placeholder="Sua senha" required autocomplete="current-password" maxlength="16" minlength="8">
+                    </div>
+                    <div>
+                        <input type="submit" value="Entrar">
+                        <a href="#" class="botao">Esqueci a senha <span class="material-icons">mail</span></a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

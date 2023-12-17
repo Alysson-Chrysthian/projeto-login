@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+:root {
+    --verde: #49a09d;
+    --roxo: #5f2c82;
+}
+
+body {
+    background-image: linear-gradient(to top, var(--verde), var(--roxo));
+}
+
+section#login {
+    width: 950px;
+    height: 350px;
+}
+
+section#login > div {
+    width: 50%;
+}
+
+section#login > div#background {
+    float: right;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+section#login > div#formulario {
+    float: left;
+}
+
+section#login > div#formulario > h1 {
+    font-size: 2em;
+}
+
+section#login > div#formulario > p {
+    font-size: 1.1em;
+    margin: 20px 0px;
+}
