@@ -1,0 +1,2 @@
+<h1>Tela de login</h1>
+<p>Este é um projeto feito juntamente com o professor gustavo guanabara, do curso em video, o projeto é uma tela de login feita utilizando as tecnologias HTML e CSS, no momento em que estou escrevendo isso ja fazem meses desde o desenvolvimento do projeto, mais eu senti a necessidade de adicionar esse readme agradecendo ao senhor gustavo guanabara por toda a ajuda q me proporcionou, apesar de eu nao ver mais suas aulas ele me ajudou bastante a aprender html, css, python e php</p>
